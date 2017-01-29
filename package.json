@@ -10,6 +10,11 @@
   "pebble": {
     "displayName": "Cellar Temp",
     "uuid": "DA23189C-A117-4AF1-95F5-CCA07C843842",
+    "companyName": "magnus@dnmgns.com",
+    "longName": "Cellar Temperature",
+    "shortName": "Cellar Temp",
+    "versionCode": 1,
+    "versionLabel": "1.0",
     "sdkVersion": "3",
     "enableMultiJS": true,
     "targetPlatforms": [
@@ -24,10 +29,14 @@
     "resources": {
       "media": [
         {
-          "file": "images/menu_icon.png",
-          "menuIcon": true,
-          "name": "CTEMP_IMAGE_MENU_ICON",
-          "type": "bitmap"
+            "file": "images/menu_icon.png",
+            "name": "IMAGE_MENU_ICON",
+            "type": "bitmap"
+        },
+        {
+            "file": "fonts/UbuntuMono-Regular.ttf",
+            "name": "MONO_FONT_14",
+            "type": "font"
         }
       ]
     }
