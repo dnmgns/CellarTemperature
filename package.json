@@ -22,7 +22,14 @@
       "watchface": false
     },
     "resources": {
-      "media": []
+      "media": [
+        {
+          "file": "images/menu_icon.png",
+          "menuIcon": true,
+          "name": "CTEMP_IMAGE_MENU_ICON",
+          "type": "bitmap"
+        }
+      ]
     }
   }
 }
