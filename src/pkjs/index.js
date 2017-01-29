@@ -6,7 +6,7 @@ var Vector2 = require('pebblejs/lib/vector2');
 var main = new UI.Card({
   title: 'Cellar Temp',
   body: 'Loading data..',
-  scrollable: true
+  scrollable: false
 });
 
 main.show();
