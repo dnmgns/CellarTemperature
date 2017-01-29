@@ -17,6 +17,9 @@ var textfield = new UI.Text({
  font: 'gothic-18-bold',
 });
 
+var res = Feature.resolution();
+console.log('Current display height is ' + res.y);
+
 
 var ajax = require('pebblejs/lib/ajax');
 ajax({ url: 'http://weeny.lindvall.co/temperature.php', type: 'json' },
