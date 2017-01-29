@@ -1,0 +1,28 @@
+{
+  "name": "Cellar Temp",
+  "author": "dnmgns",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebblejs": "^1.0.0"
+  },
+  "pebble": {
+    "displayName": "Cellar Temp",
+    "uuid": "DA23189C-A117-4AF1-95F5-CCA07C843842",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
