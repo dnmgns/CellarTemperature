@@ -31,7 +31,18 @@
         {
             "file": "images/menu_icon.png",
             "name": "IMAGE_MENU_ICON",
-            "type": "bitmap"
+            "type": "png"
+        },
+        {
+            "file": "images/menu_icon.png",
+            "name": "IMAGE_TILE_SPLASH",
+            "type": "png"
+        },
+        {
+            "file": "images/menu_icon.png",
+            "menuIcon": true,
+            "name": "IMAGES_LOGO",
+            "type": "png"
         },
         {
             "file": "fonts/UbuntuMono-Regular.ttf",

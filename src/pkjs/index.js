@@ -2,11 +2,14 @@ Pebble.addEventListener('ready', function() {
 require('pebblejs');
 var UI = require('pebblejs/ui');
 var Vector2 = require('pebblejs/lib/vector2');
+var Accel = require('pebblejs/ui/accel');
+var ajax = require('pebblejs/lib/ajax');
 
 var main = new UI.Card({
   title: 'Cellar Temp',
   body: 'Loading data..',
-  scrollable: false
+  scrollable: false,
+  fullscreen: true
 });
 
 main.show();
@@ -17,11 +20,6 @@ var textfield = new UI.Text({
  font: 'gothic-18-bold',
 });
 
-var res = Feature.resolution();
-console.log('Current display height is ' + res.y);
-
-
-var ajax = require('pebblejs/lib/ajax');
 ajax({ url: 'http://weeny.lindvall.co/temperature.php', type: 'json' },
   function(data) {
     
