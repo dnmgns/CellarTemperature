@@ -51,6 +51,7 @@ Pebble.addEventListener('ready', function() {
   });
 
   main.on('click', 'up', function() {
+    main.body('Loading data..');
     getTemperature()
   });
 });
