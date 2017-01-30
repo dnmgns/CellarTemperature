@@ -35,13 +35,18 @@
         },
         {
             "file": "images/menu_icon.png",
-            "name": "IMAGE_TILE_SPLASH",
+            "menuIcon": true,
+            "name": "IMAGES_LOGO",
             "type": "png"
         },
         {
-            "file": "images/menu_icon.png",
-            "menuIcon": true,
-            "name": "IMAGES_LOGO",
+            "file": "images/reload_icon.png",
+            "name": "IMAGE_RELOAD",
+            "type": "png"
+        },
+        {
+            "file": "images/info_icon.png",
+            "name": "IMAGE_INFO",
             "type": "png"
         },
         {
